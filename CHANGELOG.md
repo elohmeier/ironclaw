@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.13.0](https://github.com/nearai/ironclaw/compare/v0.12.0...v0.13.0) - 2026-02-27
+
+### Added
+
+- *(web)* slash command autocomplete + /status /list + fix chat input locking ([#404](https://github.com/nearai/ironclaw/pull/404))
+- *(routines)* deliver notifications to all installed channels ([#398](https://github.com/nearai/ironclaw/pull/398))
+- *(web)* persist tool calls, restore approvals on thread switch, and UI fixes ([#382](https://github.com/nearai/ironclaw/pull/382))
+- add IRONCLAW_BASE_DIR env var with LazyLock caching ([#397](https://github.com/nearai/ironclaw/pull/397))
+- feat(signal) attachment upload  + message tool ([#375](https://github.com/nearai/ironclaw/pull/375))
+
+### Fixed
+
+- web UI routines tab shows all routines regardless of creating channel ([#391](https://github.com/nearai/ironclaw/pull/391))
+- Discord Ed25519 signature verification and capabilities header alias ([#148](https://github.com/nearai/ironclaw/pull/148)) ([#372](https://github.com/nearai/ironclaw/pull/372))
+- prevent duplicate WASM channel activation on startup ([#390](https://github.com/nearai/ironclaw/pull/390))
+
+### Other
+
+- Improve --help: add detailed about/examples/color, snapshot test (clo… ([#371](https://github.com/nearai/ironclaw/pull/371))
+- Add automated QA: schema validator, CI matrix, Docker build, and P1 test coverage ([#353](https://github.com/nearai/ironclaw/pull/353))
+
 ## [0.12.0](https://github.com/nearai/ironclaw/compare/v0.11.1...v0.12.0) - 2026-02-26
 
 ### Added
